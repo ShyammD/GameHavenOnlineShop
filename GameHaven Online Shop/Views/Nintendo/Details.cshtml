@@ -1,0 +1,83 @@
+﻿@model GameHaven.Models.Models.Game
+
+@{
+    ViewData["Title"] = Model.Title;
+    <!-- Set the page title to the game title -->
+    var related = ViewData["RelatedProducts"] as List<GameHaven.Models.Models.Game> ?? new List<GameHaven.Models.Models.Game>();
+
+    <!-- Get related products or initialize empty list -->
+}
+
+<div class="container mt-5">
+    <!-- Main Product Display Row -->
+    <div class="row align-items-center bg-white shadow-lg rounded-4 p-4">
+        <!-- Left Column: Game Image -->
+        <div class="col-md-6 text-center">
+            <img src="@Url.Content(Model.ImageUrl)"
+                 class="img-fluid rounded-4 shadow-sm border"
+                 alt="@Model.Title"
+                 style="max-height: 400px; object-fit: contain;"> <!-- Game image -->
+        </div>
+
+        <!-- Right Column: Game Info -->
+        <div class="col-md-6">
+            <h1 class="fw-bold mb-3">@Model.Title</h1> <!-- Game title -->
+            <h4 class="text-muted mb-3">£@Model.Price</h4> <!-- Game price -->
+            <p class="lead mb-4">@Model.Description</p> <!-- Game description -->
+            <!-- Add to Basket and Back Buttons -->
+            <div class="d-flex align-items-center gap-3 mb-4">
+                <form asp-controller="Home" asp-action="AddToBasket" method="post">
+                    <input type="hidden" name="id" value="@Model.Slug" /> <!-- Hidden: game slug -->
+                    <input type="hidden" name="title" value="@Model.Title" /> <!-- Hidden: game title -->
+                    <input type="hidden" name="price" value="@Model.Price" /> <!-- Hidden: game price -->
+                    <input type="hidden" name="image" value="@Model.ImageUrl" /> <!-- Hidden: game image -->
+                    <button type="submit" class="btn btn-primary btn-lg px-4 shadow-sm">Add to Basket</button> <!-- Add to basket button -->
+                </form>
+
+                <button class="btn btn-outline-secondary btn-lg px-4 shadow-sm" onclick="window.history.back()">Back</button> <!-- Back button -->
+            </div>
+
+            <!-- Game Extra Details -->
+            <div class="border-top pt-3 mt-3">
+                <h6 class="fw-bold">Platform:</h6>
+                <p class="text-muted">@Model.Platform</p> <!-- Game platform -->
+
+                <h6 class="fw-bold mt-3">Release Date:</h6>
+                <p class="text-muted">@Model.ReleaseDate</p> <!-- Game release date -->
+
+                <h6 class="fw-bold mt-3">Genre:</h6>
+                <p class="text-muted">@Model.Genre</p> <!-- Game genre -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Related Products Section -->
+    <div class="mt-5">
+        <h3 class="fw-bold mb-4">You may also like</h3>
+        <div class="row g-4">
+            @foreach (var item in related)
+            {
+                <div class="col-md-4">
+                    <!-- Single Related Product Card -->
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <a asp-controller="Nintendo"
+                           asp-action="Details"
+                           asp-route-slug="@item.Slug"
+                           asp-route-category="@item.Category"
+                           class="text-decoration-none text-dark">
+                            <!-- Link to related product details -->
+                            <img src="@Url.Content(item.ImageUrl)"
+                                 class="card-img-top rounded-top"
+                                 alt="@item.Title"
+                                 style="height: 220px; object-fit: cover;"> <!-- Related game image -->
+                            <div class="card-body text-center">
+                                <h6 class="fw-bold">@item.Title</h6> <!-- Related game title -->
+                                <p class="text-muted mb-1">£@item.Price</p> <!-- Related game price -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

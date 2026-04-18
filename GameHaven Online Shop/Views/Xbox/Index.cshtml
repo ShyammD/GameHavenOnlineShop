@@ -1,0 +1,109 @@
+﻿@model IEnumerable<GameHaven.Models.Models.Game>
+
+@{
+    ViewData["Title"] = "Xbox"; <!-- Page title -->
+    ViewData["HideHeaderSearch"] = true; <!-- Hide header search on this page -->
+}
+
+<div class="container mt-4">
+    <!-- Search & Sort -->
+    <form method="get" asp-controller="Xbox" asp-action="Index" class="row g-2 mb-4">
+        <!-- Search Input -->
+        <div class="col-md-8">
+            <input type="text"
+                   name="q"
+                   value="@(ViewData["CurrentSearch"] ?? "")"
+                   class="form-control"
+                   placeholder="Search" /> <!-- Search box -->
+        </div>
+
+        <!-- Sort Dropdown -->
+        <div class="col-md-4">
+            <select name="sort" class="form-select" onchange="this.form.submit()"> <!-- Sort selection -->
+                <option value="">Sort By</option>
+
+                @if (ViewData["CurrentSort"]?.ToString() == "price-asc")
+                {
+                    <option value="price-asc" selected>Price: Low → High</option> <!-- Selected sort: price ascending -->
+                }
+                else
+                {
+                    <option value="price-asc">Price: Low → High</option> <!-- Sort option: price ascending -->
+                }
+
+                @if (ViewData["CurrentSort"]?.ToString() == "price-desc")
+                {
+                    <option value="price-desc" selected>Price: High → Low</option> <!-- Selected sort: price descending -->
+                }
+                else
+                {
+                    <option value="price-desc">Price: High → Low</option> <!-- Sort option: price descending -->
+                }
+
+                @if (ViewData["CurrentSort"]?.ToString() == "name-asc")
+                {
+                    <option value="name-asc" selected>Name: A → Z</option> <!-- Selected sort: name ascending -->
+                }
+                else
+                {
+                    <option value="name-asc">Name: A → Z</option> <!-- Sort option: name ascending -->
+                }
+
+                @if (ViewData["CurrentSort"]?.ToString() == "name-desc")
+                {
+                    <option value="name-desc" selected>Name: Z → A</option> <!-- Selected sort: name descending -->
+                }
+                else
+                {
+                    <option value="name-desc">Name: Z → A</option> <!-- Sort option: name descending -->
+                }
+            </select>
+        </div>
+    </form>
+</div>
+
+<div class="container mt-4">
+    <!-- Xbox Main Promotion Banner -->
+    <div class="mb-5">
+        <img src="~/images/xbox/promotions/xbox-main-promo-2.png"
+             class="promo-banner"
+             alt="Xbox Series X|S Promotion" /> <!-- Promotional banner image -->
+    </div>
+
+    <h2 class="mb-3 fw-bold">New In</h2> <!-- Section heading -->
+
+    <div class="row g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3"> <!-- Product column -->
+                <div class="card h-100 shadow-sm border-0 hover-shadow"> <!-- Product card -->
+                    <a asp-controller="Xbox"
+                       asp-action="Details"
+                       asp-route-slug="@item.Slug"
+                       asp-route-category="@item.Category"
+                       class="text-decoration-none text-dark"> <!-- Link to product details -->
+                        <img src="@Url.Content(item.ImageUrl)"
+                             class="card-img-top"
+                             alt="@item.Title"
+                             style="height: 400px; object-fit: contain;" /> <!-- Product image -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">@item.Title</h5> <!-- Product title -->
+                            <p class="text-muted mb-2">£@item.Price</p> <!-- Product price -->
+                        </div>
+                    </a>
+
+                    <!-- Add to Basket -->
+                    <div class="text-center pb-3">
+                        <form asp-controller="Home" asp-action="AddToBasket" method="post"> <!-- Add to basket form -->
+                            <input type="hidden" name="id" value="@item.Slug" /> <!-- Product ID -->
+                            <input type="hidden" name="title" value="@item.Title" /> <!-- Product title -->
+                            <input type="hidden" name="price" value="@item.Price" /> <!-- Product price -->
+                            <input type="hidden" name="image" value="@item.ImageUrl" /> <!-- Product image -->
+                            <button type="submit" class="btn btn-outline-success btn-sm">Add to Basket</button> <!-- Submit button -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

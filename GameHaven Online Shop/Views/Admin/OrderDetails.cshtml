@@ -1,0 +1,59 @@
+﻿@model GameHaven.Models.Models.Order
+
+@{
+    // Sets the page title for the order details view
+    ViewData["Title"] = "Order Details";
+}
+
+<!-- Page heading showing the specific order ID -->
+<h2>Order Details (ID: @Model.Id)</h2>
+
+<!-- Displays the customer's email associated with the order -->
+<p><strong>Email:</strong> @Model.EmailAddress</p>
+
+<!-- Displays the order creation date, converted to local time -->
+<p><strong>Date:</strong> @Model.CreatedUtc.ToLocalTime().ToString("f")</p>
+
+<!-- Table displaying all items within the order -->
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <!-- Table headers for product details -->
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- Loop through each order item and display its details -->
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <!-- Display the product name -->
+                <td>@item.ProductName</td>
+
+                <!-- Display the quantity ordered -->
+                <td>@item.Quantity</td>
+
+                <!-- Display the price per unit formatted as currency -->
+                <td>@item.UnitPrice.ToString("C")</td>
+
+                <!-- Calculate and display the subtotal for each item -->
+                <td>@((item.UnitPrice * item.Quantity).ToString("C"))</td>
+            </tr>
+        }
+    </tbody>
+
+    <!-- Table footer showing the total order amount -->
+    <tfoot>
+        <tr>
+            <th colspan="3" class="text-end">Order Total:</th>
+            <th>@Model.Total.ToString("C")</th>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- Back button to return to the main customer orders page -->
+<a asp-action="CustomerOrders" class="btn btn-secondary mt-3">← Back to Customer Orders</a>

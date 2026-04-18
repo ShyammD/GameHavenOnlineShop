@@ -1,0 +1,127 @@
+﻿@model IEnumerable<GameHaven.Models.Models.Game>
+
+@{
+    ViewData["Title"] = "Computer"; <!-- Set page title -->
+    ViewData["HideHeaderSearch"] = true; <!-- Hide main header search, show only page-specific search -->
+}
+
+<div class="container mt-4">
+    <!-- Search & Sort Section -->
+    <form method="get" asp-controller="Computer" asp-action="Index" class="row g-2 mb-4">
+
+        <!-- Search Input Column -->
+        <div class="col-md-8">
+           <input type="text"
+               name="q"
+               value="@(ViewData["CurrentSearch"] ?? "")"
+               class="form-control"
+               placeholder="Search" />
+        </div>
+
+        <!-- Sort Dropdown Column -->
+        <div class="col-md-4">
+            <select name="sort" class="form-select" onchange="this.form.submit()"> <!-- Submit form when sort changes -->
+                <option value="">Sort By</option> <!-- Default sort option -->
+
+                <!-- Price Low → High -->
+                @if (ViewData["CurrentSort"]?.ToString() == "price-asc")
+                {
+                    <option value="price-asc" selected>Price: Low → High</option>
+                }
+                else
+                {
+                    <option value="price-asc">Price: Low → High</option>
+                }
+
+                <!-- Price High → Low -->
+                @if (ViewData["CurrentSort"]?.ToString() == "price-desc")
+                {
+                    <option value="price-desc" selected>Price: High → Low</option>
+                }
+                else
+                {
+                    <option value="price-desc">Price: High → Low</option>
+                }
+
+                <!-- Name A → Z -->
+                @if (ViewData["CurrentSort"]?.ToString() == "name-asc")
+                {
+                    <option value="name-asc" selected>Name: A → Z</option>
+                }
+                else
+                {
+                    <option value="name-asc">Name: A → Z</option>
+                }
+
+                <!-- Name Z → A -->
+                @if (ViewData["CurrentSort"]?.ToString() == "name-desc")
+                {
+                    <option value="name-desc" selected>Name: Z → A</option>
+                }
+                else
+                {
+                    <option value="name-desc">Name: Z → A</option>
+                }
+            </select>
+        </div>
+    </form>
+</div>
+
+<div class="container mt-4">
+    <!-- Computer Promotions Banner -->
+    <div class="mb-5">
+        <img src="~/images/computer/promotions/computer-main-promo-2.png"
+             class="promo-banner"
+             alt="Computer Promotion"> <!-- Banner image for the computer category -->
+    </div>
+
+    <!-- Section Heading -->
+    <h2 class="mb-3 fw-bold">New In</h2>
+
+    <!-- Check if there are products to display -->
+    @if (!Model.Any())
+    {
+        <p class="text-muted">No products found. Try a different search.</p> <!-- Show message if no products -->
+    }
+    else
+    {
+        <div class="row g-4">
+            @* Controller already filters to "Computer New In", so just loop Model *@
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0 hover-shadow">
+                        <!-- Link to product details page -->
+                        <a asp-controller="Computer"
+                           asp-action="Details"
+                           asp-route-slug="@item.Slug"
+                           asp-route-category="@item.Category"
+                           class="text-decoration-none text-dark">
+                            <!-- Product image -->
+                            <img src="@Url.Content(item.ImageUrl)"
+                                 class="card-img-top"
+                                 alt="@item.Title"
+                                 style="object-fit: contain; max-height: 400px;">
+                            <!-- Product title and price -->
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">@item.Title</h5>
+                                <p class="text-muted mb-2">£@item.Price</p>
+                            </div>
+                        </a>
+
+                        <!-- Add to Basket Button -->
+                        <div class="text-center pb-3">
+                            <form asp-controller="Home" asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="id" value="@item.Slug" /> <!-- Hidden product slug -->
+                                <input type="hidden" name="title" value="@item.Title" /> <!-- Hidden product title -->
+                                <input type="hidden" name="price" value="@item.Price" /> <!-- Hidden product price -->
+                                <input type="hidden" name="image" value="@item.ImageUrl" /> <!-- Hidden product image URL -->
+                                <button type="submit" class="btn btn-outline-primary btn-sm">Add to Basket</button> <!-- Submit button -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

@@ -1,0 +1,82 @@
+﻿@model GameHaven.Models.Models.Game
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="container mt-5">
+    <!-- Product Showcase Card -->
+    <div class="row align-items-center bg-white shadow-lg rounded-4 p-4">
+        <!-- Left Side: Image -->
+        <div class="col-md-6 text-center">
+            <img src="@Url.Content(Model.ImageUrl)"
+                 class="img-fluid rounded-4 shadow-sm border"
+                 alt="@Model.Title"
+                 style="max-height: 400px; object-fit: contain;">
+        </div>
+
+        <!-- Right Side: Game Info -->
+        <div class="col-md-6">
+            <h1 class="fw-bold mb-3">@Model.Title</h1>
+            <h4 class="text-muted mb-4">£@Model.Price</h4>
+
+            <!-- Description at the top -->
+            <p class="lead mb-4">@Model.Description</p>
+
+            <!-- Add to Basket Form -->
+            <form asp-action="AddToBasket" method="post" class="d-flex align-items-center gap-3 mb-4">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <input type="hidden" name="title" value="@Model.Title" />
+                <input type="hidden" name="price" value="@Model.Price" />
+                <input type="hidden" name="image" value="@Url.Content(Model.ImageUrl)" />
+                <button type="submit" class="btn btn-primary btn-lg px-4 shadow-sm">Add to Basket</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4 shadow-sm"
+                        onclick="window.history.back()">
+                    Back
+                </button>
+            </form>
+
+            <!-- Extra details -->
+            <div class="border-top pt-3 mt-3">
+                <h6 class="fw-bold">Platform:</h6>
+                <p class="text-muted">@Model.Platform</p>
+
+                <h6 class="fw-bold mt-3">Release Date:</h6>
+                <p class="text-muted">@Model.ReleaseDate</p>
+
+                <h6 class="fw-bold mt-3">Genre:</h6>
+                <p class="text-muted">@Model.Genre</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Related Section -->
+    <div class="mt-5">
+        <h3 class="fw-bold mb-4">You may also like</h3>
+        <div class="row g-4">
+            @if (ViewBag.RelatedGames != null)
+            {
+                foreach (var game in ViewBag.RelatedGames)
+                {
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm hover-shadow">
+                            <a asp-controller="Home"
+                               asp-action="Details"
+                               asp-route-slug="@game.Slug"
+                               class="text-decoration-none text-dark">
+                                <img src="@Url.Content(game.ImageUrl)"
+                                     class="card-img-top"
+                                     alt="@game.Title"
+                                     style="height: 220px; object-fit: cover;">
+                                <div class="card-body text-center">
+                                    <h6 class="fw-bold">@game.Title</h6>
+                                    <p class="text-muted mb-1">£@game.Price</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,191 @@
+﻿@using GameHaven_Online_Shop.Helpers
+@using GameHaven_Online_Shop.Models
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" /> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsive viewport -->
+    <title>@ViewData["Title"] - GameHaven_Online_Shop</title> <!-- Page title -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> <!-- Site-specific CSS -->
+    <link rel="stylesheet" href="~/GameHaven_Online_Shop.styles.css" asp-append-version="true" /> <!-- Custom styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"> <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" /> <!-- Bootstrap CDN CSS -->
+</head>
+<body>
+    @{
+        // Hide the header search on certain pages
+        var hideHeaderSearch = ViewData["HideHeaderSearch"] as bool? ?? false; <!-- Flag to hide header search -->
+
+        // Basket count
+        var basket = Context.Session.GetObjectFromJson<List<BasketItem>>("Basket") ?? new List<BasketItem>(); <!-- Retrieve basket from session -->
+        var basketCount = basket.Sum(x => x.Quantity); <!-- Calculate total basket count -->
+
+        // Session user data
+        var userEmail = Context.Session.GetString("UserEmail"); <!-- User email from session -->
+        var userRole = Context.Session.GetString("UserRole"); <!-- User role from session -->
+        var userFirstName = Context.Session.GetString("UserFirstName"); <!-- User first name -->
+        var displayName = !string.IsNullOrEmpty(userFirstName) ? userFirstName : userEmail; <!-- Display name logic -->
+    }
+
+    <header class="border-bottom shadow-sm mb-3"> <!-- Header with shadow and border -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white container"> <!-- Navbar -->
+            <a class="navbar-brand d-flex align-items-center" asp-controller="Home" asp-action="Index"> <!-- Brand link -->
+                <img src="~/images/logo/Logo.png" alt="GameHaven Logo" style="height:40px; margin-right:10px;" /> <!-- Logo -->
+                <span class="fw-bold fs-4">GameHaven</span> <!-- Brand name -->
+            </a>
+
+            @* Global search *@
+            @if (!hideHeaderSearch)
+            {
+                <form method="get"
+                      asp-controller="Search"
+                      asp-action="Index"
+                      class="d-none d-md-flex ms-3 me-3 flex-grow-1"> <!-- Header search form -->
+                    <div class="input-group">
+                        <input type="text"
+                               name="q"
+                               class="form-control"
+                               value="@(Context?.Request?.Query["q"].ToString() ?? "")"
+                               placeholder="Search everything… (e.g., PS5, Xbox, headset, RPG)" /> <!-- Search input -->
+                        <button class="btn btn-outline-primary" type="submit">
+                            <i class="bi bi-search"></i> <!-- Search icon -->
+                        </button>
+                    </div>
+                </form>
+            }
+
+            <div class="ms-auto d-flex align-items-center"> <!-- Right side header buttons -->
+                @* Account button / dropdown *@
+                @if (!string.IsNullOrEmpty(userEmail))
+                {
+                    <div class="dropdown me-3"> <!-- Logged-in dropdown -->
+                        <button class="btn btn-outline-secondary dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle fs-5 me-2"></i> <!-- Person icon -->
+                            <span class="d-none d-sm-inline">@displayName</span> <!-- Display user name -->
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end"> <!-- Dropdown menu -->
+                            @* Role-specific links *@
+                            @if (string.Equals(userRole, "Admin", StringComparison.OrdinalIgnoreCase))
+                            {
+                                <li><a class="dropdown-item" asp-controller="Admin" asp-action="Index">Admin dashboard</a></li> <!-- Admin link -->
+                            }
+                            else
+                            {
+                                <li><a class="dropdown-item" asp-controller="Customer" asp-action="Index">My account</a></li> <!-- Customer link -->
+                            }
+                            <li><hr class="dropdown-divider" /></li> <!-- Divider -->
+                            <li>
+                                <a class="dropdown-item text-danger" asp-controller="Account" asp-action="Logout">Logout</a> <!-- Logout link -->
+                            </li>
+                        </ul>
+                    </div>
+                }
+                else
+                {
+                    <button class="btn btn-outline-secondary me-3" data-bs-toggle="modal" data-bs-target="#authModal" aria-label="Login or Register">
+                        <i class="bi bi-person-circle fs-4"></i> <!-- Login/Register modal trigger -->
+                    </button>
+                }
+
+                @* Basket *@
+                <a asp-controller="Home" asp-action="Basket" class="text-dark position-relative"> <!-- Basket icon -->
+                    <i class="bi bi-cart3 fs-4"></i> <!-- Cart icon -->
+                    @if (basketCount > 0)
+                    {
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                              style="font-size:.65rem; padding:.25rem .45rem;">
+                            @basketCount <!-- Basket count badge -->
+                        </span>
+                    }
+                </a>
+            </div>
+        </nav>
+
+        <div class="bg-dark text-white py-2"> <!-- Sub-navigation container -->
+            <div class="container d-flex justify-content-around">
+                @* Nintendo Sub-Navigation *@
+                @if (ViewContext.RouteData.Values["controller"].ToString() == "Nintendo")
+                {
+                    <a asp-controller="Nintendo" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Index" ? "fw-bold" : "")">Home</a> <!-- Nintendo Home -->
+                    <a asp-controller="Nintendo" asp-action="Consoles"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Consoles" ? "fw-bold" : "")">Consoles</a> <!-- Nintendo Consoles -->
+                    <a asp-controller="Nintendo" asp-action="Accessories"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Accessories" ? "fw-bold" : "")">Accessories</a> <!-- Nintendo Accessories -->
+                    <a asp-controller="Nintendo" asp-action="Games"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Games" ? "fw-bold" : "")">Games</a> <!-- Nintendo Games -->
+                }
+                @* Xbox Sub-Navigation *@
+                else if (ViewContext.RouteData.Values["controller"].ToString() == "Xbox")
+                {
+                    <a asp-controller="Xbox" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Index" ? "fw-bold" : "")">Home</a> <!-- Xbox Home -->
+                    <a asp-controller="Xbox" asp-action="Consoles"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Consoles" ? "fw-bold" : "")">Consoles</a> <!-- Xbox Consoles -->
+                    <a asp-controller="Xbox" asp-action="Accessories"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Accessories" ? "fw-bold" : "")">Accessories</a> <!-- Xbox Accessories -->
+                    <a asp-controller="Xbox" asp-action="Games"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Games" ? "fw-bold" : "")">Games</a> <!-- Xbox Games -->
+                }
+                @* PlayStation Sub-Navigation *@
+                else if (ViewContext.RouteData.Values["controller"].ToString() == "PlayStation")
+                {
+                    <a asp-controller="PlayStation" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Index" ? "fw-bold" : "")">Home</a> <!-- PlayStation Home -->
+                    <a asp-controller="PlayStation" asp-action="Consoles"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Consoles" ? "fw-bold" : "")">Consoles</a> <!-- PlayStation Consoles -->
+                    <a asp-controller="PlayStation" asp-action="Accessories"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Accessories" ? "fw-bold" : "")">Accessories</a> <!-- PlayStation Accessories -->
+                    <a asp-controller="PlayStation" asp-action="Games"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Games" ? "fw-bold" : "")">Games</a> <!-- PlayStation Games -->
+                }
+                @* Computer Sub-Navigation *@
+                else if (ViewContext.RouteData.Values["controller"].ToString() == "Computer")
+                {
+                    <a asp-controller="Computer" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Index" ? "fw-bold" : "")">Home</a> <!-- Computer Home -->
+                    <a asp-controller="Computer" asp-action="Consoles"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Consoles" ? "fw-bold" : "")">Consoles</a> <!-- Computer Consoles -->
+                    <a asp-controller="Computer" asp-action="Accessories"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Accessories" ? "fw-bold" : "")">Accessories</a> <!-- Computer Accessories -->
+                    <a asp-controller="Computer" asp-action="Games"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["action"].ToString() == "Games" ? "fw-bold" : "")">Games</a> <!-- Computer Games -->
+                }
+                @* Default Top-Level Navigation *@
+                else
+                {
+                    <a asp-controller="Nintendo" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["controller"].ToString() == "Nintendo" ? "fw-bold" : "")">Nintendo</a> <!-- Default Nintendo -->
+                    <a asp-controller="Xbox" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["controller"].ToString() == "Xbox" ? "fw-bold" : "")">Xbox</a> <!-- Default Xbox -->
+                    <a asp-controller="PlayStation" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["controller"].ToString() == "PlayStation" ? "fw-bold" : "")">PlayStation</a> <!-- Default PlayStation -->
+                    <a asp-controller="Computer" asp-action="Index"
+                       class="text-white text-decoration-none @(ViewContext.RouteData.Values["controller"].ToString() == "Computer" ? "fw-bold" : "")">Computer</a> <!-- Default Computer -->
+                }
+            </div>
+        </div>
+    </header>
+
+    <div class="container"> <!-- Main container -->
+        <main role="main" class="pb-3"> <!-- Main content area -->
+            @RenderBody() <!-- Render body content -->
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted"> <!-- Footer -->
+        <div class="container">
+            &copy; 2025 - GameHaven Online Shop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> <!-- Privacy link -->
+        </div>
+    </footer>
+
+    @* Login/Register modal markup *@
+    @await Html.PartialAsync("_AuthModal") <!-- Include authentication modal -->
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script> <!-- jQuery -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS bundle -->
+    <script src="~/js/site.js" asp-append-version="true"></script> <!-- Site JS -->
+    @await RenderSectionAsync("Scripts", required: false) <!-- Optional page-specific scripts -->
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿@model GameHaven.Models.Models.Game
+
+@{
+    ViewData["Title"] = Model.Title; <!-- Set page title dynamically based on the product -->
+    var related = ViewData["RelatedProducts"] as List<GameHaven.Models.Models.Game> ?? new List<GameHaven.Models.Models.Game>(); <!-- Get related products or empty list -->
+}
+
+<div class="container mt-5">
+    <!-- Product Showcase Section -->
+    <div class="row align-items-center bg-white shadow-lg rounded-4 p-4">
+        <div class="col-md-6 text-center">
+            <!-- Product Image -->
+            <img src="@Url.Content(Model.ImageUrl)"
+                 class="img-fluid rounded-4 shadow-sm border"
+                 alt="@Model.Title"
+                 style="max-height: 400px; object-fit: contain;">
+        </div>
+
+        <div class="col-md-6">
+            <!-- Product Title & Price -->
+            <h1 class="fw-bold mb-3">@Model.Title</h1>
+            <h4 class="text-muted mb-3">£@Model.Price</h4>
+            <p class="lead mb-4">@Model.Description</p> <!-- Product description -->
+
+            <!-- Add to Basket Button + Back Button -->
+            <div class="d-flex align-items-center gap-3 mb-4">
+                <form asp-controller="Home" asp-action="AddToBasket" method="post">
+                    <input type="hidden" name="id" value="@Model.Slug" /> <!-- Hidden slug -->
+                    <input type="hidden" name="title" value="@Model.Title" /> <!-- Hidden title -->
+                    <input type="hidden" name="price" value="@Model.Price" /> <!-- Hidden price -->
+                    <input type="hidden" name="image" value="@Model.ImageUrl" /> <!-- Hidden image URL -->
+                    <button type="submit" class="btn btn-primary btn-lg px-4 shadow-sm">Add to Basket</button> <!-- Add product to basket -->
+                </form>
+
+                <button class="btn btn-outline-secondary btn-lg px-4 shadow-sm" onclick="window.history.back()">Back</button> <!-- Navigate back -->
+            </div>
+
+            <!-- Product Information -->
+            <div class="border-top pt-3 mt-3">
+                <h6 class="fw-bold">Platform:</h6>
+                <p class="text-muted">@Model.Platform</p> <!-- Product platform -->
+
+                <h6 class="fw-bold mt-3">Release Date:</h6>
+                <p class="text-muted">@Model.ReleaseDate</p> <!-- Product release date -->
+
+                <h6 class="fw-bold mt-3">Genre:</h6>
+                <p class="text-muted">@Model.Genre</p> <!-- Product genre -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Related Products Section -->
+    <div class="mt-5">
+        <h3 class="fw-bold mb-4">You may also like</h3>
+        <div class="row g-4">
+            @foreach (var item in related)
+            {
+                <div class="col-md-4">
+                    <!-- Single Related Product Card -->
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <a asp-controller="PlayStation"
+                           asp-action="Details"
+                           asp-route-slug="@item.Slug"
+                           asp-route-category="@item.Category"
+                           class="text-decoration-none text-dark"> <!-- Link to related product details -->
+                            <img src="@Url.Content(item.ImageUrl)"
+                                 class="card-img-top rounded-top"
+                                 alt="@item.Title"
+                                 style="height: 220px; object-fit: cover;"> <!-- Related product image -->
+                            <div class="card-body text-center">
+                                <h6 class="fw-bold">@item.Title</h6> <!-- Related product title -->
+                                <p class="text-muted mb-1">£@item.Price</p> <!-- Related product price -->
+                            </div>
+                        </a>
+
+                        <!-- Add to Basket Button for Related Product -->
+                        <div class="text-center pb-3">
+                            <form asp-controller="Home" asp-action="AddToBasket" method="post">
+                                <input type="hidden" name="id" value="@item.Slug" /> <!-- Hidden slug -->
+                                <input type="hidden" name="title" value="@item.Title" /> <!-- Hidden title -->
+                                <input type="hidden" name="price" value="@item.Price" /> <!-- Hidden price -->
+                                <input type="hidden" name="image" value="@item.ImageUrl" /> <!-- Hidden image URL -->
+                                <button type="submit" class="btn btn-outline-primary btn-sm">Add to Basket</button> <!-- Add related product to basket -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

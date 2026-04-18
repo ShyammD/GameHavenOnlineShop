@@ -1,0 +1,31 @@
+﻿@{
+    // Sets the page title for the browser/tab and layout views
+    ViewData["Title"] = "Login";
+}
+
+<!-- Page heading -->
+<h2 class="text-center mb-4">Login</h2>
+
+<!-- Login form - submits user credentials to AccountController.Login (POST) -->
+<form asp-action="Login" method="post">
+
+    <!-- Email input field -->
+    <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <!-- Prefills the email field if previously entered -->
+        <input type="email" name="email" class="form-control" value="@(ViewData["Email"] as string)" required />
+    </div>
+
+    <!-- Password input field -->
+    <div class="form-group mb-3">
+        <label for="password">Password</label>
+        <!-- Ensures password is hidden and required before submitting -->
+        <input type="password" name="password" class="form-control" required />
+    </div>
+
+    <!-- Displays any validation or model errors from the controller (e.g., invalid credentials) -->
+    <div asp-validation-summary="ModelOnly" class="text-danger text-center mb-3"></div>
+
+    <!-- Submit button to trigger login -->
+    <button type="submit" class="btn btn-primary w-100">Login</button>
+</form>

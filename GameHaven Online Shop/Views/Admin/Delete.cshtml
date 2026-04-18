@@ -1,0 +1,24 @@
+﻿@model GameHaven.Models.Models.Game
+
+@{
+    // Sets the page title shown in the browser and layout
+    ViewData["Title"] = "Delete Game";
+}
+
+<!-- Page heading -->
+<h2>Delete Game</h2>
+
+<!-- Confirmation message showing the title of the game to be deleted -->
+<h4>Are you sure you want to delete <strong>@Model.Title</strong>?</h4>
+
+<!-- Form posts back to Delete action in the controller -->
+<form asp-action="Delete" method="post">
+    <!-- Hidden field stores the game's ID for deletion -->
+    <input type="hidden" asp-for="Id" />
+
+    <!-- Button to confirm deletion -->
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+
+    <!-- Cancel button navigates back to Index view without deleting -->
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

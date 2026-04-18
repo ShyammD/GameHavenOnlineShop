@@ -1,0 +1,1316 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\models\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EC5176-8DCC-4A1A-9684-90299C997466}|GameHaven.Utility\\GameHaven.Utility.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.utility\\simplepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EC5176-8DCC-4A1A-9684-90299C997466}|GameHaven.Utility\\GameHaven.Utility.csproj|solutionrelative:gamehaven.utility\\simplepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\admin\\customerorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\admin\\customerorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\models\\admincustomerordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\models\\admincustomerordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\models\\basketitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\models\\basketitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\20251031163958_syncschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\20251031163958_syncschema.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\20251031153900_adduserswithadminseed.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\20251031153900_adduserswithadminseed.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\20251030151724_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\20251030151724_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\20251030151724_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\20251030151724_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\computer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\computer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\models\\customerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\models\\customerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\computer\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\computer\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\xboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\xboxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\nintendocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\nintendocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\home\\basket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\home\\basket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\wwwroot\\js\\passwordstrength.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\wwwroot\\js\\passwordstrength.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\computer\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\computer\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\nintendo\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\nintendo\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\nintendo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\nintendo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\nintendo\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\nintendo\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\nintendo\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\nintendo\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\nintendo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\nintendo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\xbox\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\xbox\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\xbox\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\xbox\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\xbox\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\xbox\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\xbox\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\xbox\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\xbox\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\xbox\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\search\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\search\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\playstation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\playstation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\playstation\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\playstation\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\playstation\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\playstation\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\playstation\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\playstation\\consoles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\playstation\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\playstation\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\computer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\computer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\computer\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\computer\\accessories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\admin\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\admin\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\playstationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\playstationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\controllers\\computercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\controllers\\computercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\20251031163958_syncschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\20251031163958_syncschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\20251031153900_adduserswithadminseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\20251031153900_adduserswithadminseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven online shop\\gamehaven.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{02AB9FB8-9E03-4E7A-AE02-82AB3F5424F1}|GameHaven Online Shop\\GameHaven.Web.csproj|solutionrelative:gamehaven online shop\\gamehaven.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\migrations\\20251031172650_addorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\migrations\\20251031172650_addorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.dataaccess\\gamehaven.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8E892198-0D60-4F9E-B459-57EAF3ECE49B}|GameHaven.DataAccess\\GameHaven.DataAccess.csproj|solutionrelative:gamehaven.dataaccess\\gamehaven.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EC5176-8DCC-4A1A-9684-90299C997466}|GameHaven.Utility\\GameHaven.Utility.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.utility\\gamehaven.utility.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78EC5176-8DCC-4A1A-9684-90299C997466}|GameHaven.Utility\\GameHaven.Utility.csproj|solutionrelative:gamehaven.utility\\gamehaven.utility.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|d:\\users\\shyam dattani\\downloads\\gamehaven online shop (1) 2\\gamehaven online shop\\gamehaven.models\\gamehaven.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9029F097-3F9B-40A6-A0CE-26720E5C0E62}|GameHaven.Models\\GameHaven.Models.csproj|solutionrelative:gamehaven.models\\gamehaven.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\notga\\Desktop\\New folder\\GameHaven Online Shop (1)\\GameHaven.DataAccess\\Migrations\\20251030151708_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shyam Dattani\\source\\repos\\GameHaven Online Shop (1)\\GameHaven.DataAccess\\Migrations\\20251028104612_AddExtraFieldsToGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\User.cs",
+              "RelativeDocumentMoniker": "GameHaven.Models\\Models\\User.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\User.cs",
+              "RelativeToolTip": "GameHaven.Models\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:06:09.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimplePassword.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Utility\\SimplePassword.cs",
+              "RelativeDocumentMoniker": "GameHaven.Utility\\SimplePassword.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Utility\\SimplePassword.cs",
+              "RelativeToolTip": "GameHaven.Utility\\SimplePassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:45:04.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T19:55:16.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T11:35:28.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_AuthModal.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Shared\\_AuthModal.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Shared\\_AuthModal.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Shared\\_AuthModal.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Shared\\_AuthModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T15:23:01.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T11:42:09.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Models\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Models\\CheckoutViewModel.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Models\\CheckoutViewModel.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Models\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T17:29:44.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T20:37:01.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T16:59:08.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T16:59:29.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerOrders.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\CustomerOrders.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Admin\\CustomerOrders.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\CustomerOrders.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Admin\\CustomerOrders.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T17:10:30.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T19:56:22.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:35:22.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAIwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:22:30.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "GameHaven Online Shop\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-17T07:44:51.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T18:04:40.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminCustomerOrdersViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\AdminCustomerOrdersViewModel.cs",
+              "RelativeDocumentMoniker": "GameHaven.Models\\Models\\AdminCustomerOrdersViewModel.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\AdminCustomerOrdersViewModel.cs",
+              "RelativeToolTip": "GameHaven.Models\\Models\\AdminCustomerOrdersViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T17:17:18.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasketItems.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\BasketItems.cs",
+              "RelativeDocumentMoniker": "GameHaven.Models\\Models\\BasketItems.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\BasketItems.cs",
+              "RelativeToolTip": "GameHaven.Models\\Models\\BasketItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T11:39:16.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Program.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Program.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Program.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T11:35:19.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T13:16:20.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAhwFcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T17:31:00.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAASwD8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:35:39.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20251031153900_AddUsersWithAdminSeed.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.Designer.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.Designer.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.Designer.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.Designer.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAhwOMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:01:49.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251031163958_SyncSchema.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.Designer.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.Designer.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.Designer.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.Designer.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAhwOMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:01:53.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20251030151724_Initial.Designer.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251030151724_Initial.Designer.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\20251030151724_Initial.Designer.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251030151724_Initial.Designer.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\20251030151724_Initial.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T17:01:38.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\appsettings.json",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\appsettings.json",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\appsettings.json",
+              "RelativeToolTip": "GameHaven Online Shop\\appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-26T11:21:01.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20251030151724_Initial.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251030151724_Initial.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\20251030151724_Initial.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251030151724_Initial.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\20251030151724_Initial.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAhwDMAAADtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:17:24.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAhwOEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:32:46.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAK0EAAAAAAAAAAAAAMgEAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-26T15:07:47.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Computer\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Computer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T17:54:05.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:32:14.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CustomerDashboardViewModel.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\CustomerDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "GameHaven.Models\\Models\\CustomerDashboardViewModel.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\CustomerDashboardViewModel.cs",
+              "RelativeToolTip": "GameHaven.Models\\Models\\CustomerDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:31:28.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Consoles.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Consoles.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Computer\\Consoles.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Consoles.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Computer\\Consoles.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T16:03:53.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T11:44:19.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "GameHaven.Models\\Models\\OrderItem.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\OrderItem.cs",
+              "RelativeToolTip": "GameHaven.Models\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T17:22:18.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "XboxController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\XboxController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\XboxController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\XboxController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\XboxController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T16:22:16.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NintendoController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\NintendoController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\NintendoController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\NintendoController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\NintendoController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:51:58.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:28:30.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "GameHaven.Models\\Models\\Order.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\Order.cs",
+              "RelativeToolTip": "GameHaven.Models\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T17:21:45.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T17:23:50.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Basket.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Home\\Basket.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Home\\Basket.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Home\\Basket.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Home\\Basket.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T11:33:44.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\SearchController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:49:08.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Games.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Games.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Computer\\Games.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Games.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Computer\\Games.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T16:04:55.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\PlayStation\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\PlayStation\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T17:51:50.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "passwordStrength.js",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\wwwroot\\js\\passwordStrength.js",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\wwwroot\\js\\passwordStrength.js",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\wwwroot\\js\\passwordStrength.js",
+              "RelativeToolTip": "GameHaven Online Shop\\wwwroot\\js\\passwordStrength.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-01T18:56:58.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Games.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Games.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Nintendo\\Games.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Games.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Nintendo\\Games.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T12:25:01.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Details.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Nintendo\\Details.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Details.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Nintendo\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T18:49:16.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Accessories.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Accessories.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Nintendo\\Accessories.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Accessories.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Nintendo\\Accessories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T16:32:04.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Consoles.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Consoles.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Nintendo\\Consoles.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Consoles.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Nintendo\\Consoles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T14:25:08.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Games.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Games.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\PlayStation\\Games.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Games.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\PlayStation\\Games.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T16:35:00.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T11:40:33.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Xbox\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Xbox\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T15:30:54.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Games.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Games.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Xbox\\Games.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Games.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Xbox\\Games.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T10:39:00.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Details.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Xbox\\Details.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Details.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Xbox\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T10:22:29.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Consoles.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Consoles.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Xbox\\Consoles.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Consoles.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Xbox\\Consoles.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwG0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T16:32:54.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Nintendo\\Index.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Nintendo\\Index.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Nintendo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T11:30:22.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Accessories.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Accessories.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Xbox\\Accessories.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Xbox\\Accessories.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Xbox\\Accessories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T16:34:08.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Details.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\PlayStation\\Details.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Details.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\PlayStation\\Details.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwFoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T17:12:03.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Search\\Results.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Search\\Results.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Search\\Results.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Search\\Results.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T15:50:35.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Consoles.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Consoles.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\PlayStation\\Consoles.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Consoles.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\PlayStation\\Consoles.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAHEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T15:20:22.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Accessories.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Accessories.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\PlayStation\\Accessories.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\PlayStation\\Accessories.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\PlayStation\\Accessories.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwHEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T16:01:42.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Details.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Computer\\Details.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Details.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Computer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T17:01:38.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Accessories.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Accessories.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Computer\\Accessories.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Computer\\Accessories.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Computer\\Accessories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T16:04:22.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Checkout\\Success.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Checkout\\Success.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Checkout\\Success.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Checkout\\Success.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDMAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T17:32:34.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Admin\\OrderDetails.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\OrderDetails.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Admin\\OrderDetails.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDoAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-01T17:11:17.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T19:57:23.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "GameHaven Online Shop\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T19:58:09.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "PlayStationController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\PlayStationController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\PlayStationController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\PlayStationController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\PlayStationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T17:48:27.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ComputerController.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\ComputerController.cs",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\Controllers\\ComputerController.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\Controllers\\ComputerController.cs",
+              "RelativeToolTip": "GameHaven Online Shop\\Controllers\\ComputerController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAwKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T16:01:30.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "GameHaven.Models\\Models\\Game.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\Models\\Game.cs",
+              "RelativeToolTip": "GameHaven.Models\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T17:13:41.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20251031163958_SyncSchema.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\20251031163958_SyncSchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T16:39:58.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20251031153900_AddUsersWithAdminSeed.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\20251031153900_AddUsersWithAdminSeed.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T15:39:01.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "GameHaven.Web.csproj",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\GameHaven.Web.csproj",
+              "RelativeDocumentMoniker": "GameHaven Online Shop\\GameHaven.Web.csproj",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven Online Shop\\GameHaven.Web.csproj",
+              "RelativeToolTip": "GameHaven Online Shop\\GameHaven.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-31T16:37:35.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20251031172650_AddOrders.cs",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031172650_AddOrders.cs",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\Migrations\\20251031172650_AddOrders.cs",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\Migrations\\20251031172650_AddOrders.cs",
+              "RelativeToolTip": "GameHaven.DataAccess\\Migrations\\20251031172650_AddOrders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T17:26:51.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GameHaven.Utility.csproj",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Utility\\GameHaven.Utility.csproj",
+              "RelativeDocumentMoniker": "GameHaven.Utility\\GameHaven.Utility.csproj",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Utility\\GameHaven.Utility.csproj",
+              "RelativeToolTip": "GameHaven.Utility\\GameHaven.Utility.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-31T15:43:24.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GameHaven.DataAccess.csproj",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\GameHaven.DataAccess.csproj",
+              "RelativeDocumentMoniker": "GameHaven.DataAccess\\GameHaven.DataAccess.csproj",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.DataAccess\\GameHaven.DataAccess.csproj",
+              "RelativeToolTip": "GameHaven.DataAccess\\GameHaven.DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-31T16:23:18.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "GameHaven.Models.csproj",
+              "DocumentMoniker": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\GameHaven.Models.csproj",
+              "RelativeDocumentMoniker": "GameHaven.Models\\GameHaven.Models.csproj",
+              "ToolTip": "D:\\Users\\Shyam Dattani\\Downloads\\GameHaven Online Shop (1) 2\\GameHaven Online Shop\\GameHaven.Models\\GameHaven.Models.csproj",
+              "RelativeToolTip": "GameHaven.Models\\GameHaven.Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-31T16:36:18.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20251030151708_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\notga\\Desktop\\New folder\\GameHaven Online Shop (1)\\GameHaven.DataAccess\\Migrations\\20251030151708_Initial.cs",
+              "ToolTip": "C:\\Users\\notga\\Desktop\\New folder\\GameHaven Online Shop (1)\\GameHaven.DataAccess\\Migrations\\20251030151708_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:17:08.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "20251028104612_AddExtraFieldsToGame.cs",
+              "DocumentMoniker": "C:\\Users\\Shyam Dattani\\source\\repos\\GameHaven Online Shop (1)\\GameHaven.DataAccess\\Migrations\\20251028104612_AddExtraFieldsToGame.cs",
+              "ToolTip": "C:\\Users\\Shyam Dattani\\source\\repos\\GameHaven Online Shop (1)\\GameHaven.DataAccess\\Migrations\\20251028104612_AddExtraFieldsToGame.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:46:13.029Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

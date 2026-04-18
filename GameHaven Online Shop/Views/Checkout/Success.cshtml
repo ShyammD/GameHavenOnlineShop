@@ -1,0 +1,52 @@
+﻿@model GameHaven.Models.Models.Order
+
+@{
+    // Sets the page title for the order confirmation
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<!-- Confirmation heading -->
+<h2 class="mb-3">Thank you!</h2>
+
+<!-- Displays order ID and date/time of order -->
+<p>
+    Your order <strong>#@Model.Id</strong>
+    was placed on @Model.CreatedUtc.ToLocalTime().ToString("dd/MM/yyyy HH:mm:ss").
+</p>
+
+<!-- Section title for purchased items -->
+<h4 class="mt-4">Items</h4>
+
+<!-- Table showing order item details -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Qty</th>
+            <th>Unit Price</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Loops through each item in the order and displays its details -->
+        @foreach (var i in Model.Items)
+        {
+            <tr>
+                <td>@i.ProductName</td>
+                <td>@i.Quantity</td>
+                <td>@($"{i.UnitPrice:C}")</td>
+                <td>@($"{(i.UnitPrice * i.Quantity):C}")</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <!-- Displays the total amount of the order -->
+        <tr>
+            <th colspan="3" class="text-end">Total</th>
+            <th>@($"{Model.Total:C}")</th>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- Button to return user to home page -->
+<a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Continue shopping</a>

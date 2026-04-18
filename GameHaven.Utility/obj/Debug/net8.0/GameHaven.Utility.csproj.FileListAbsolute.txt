@@ -1,0 +1,77 @@
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.deps.json
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfoInputs.cache
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfo.cs
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\refint\GameHaven.Utility.dll
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\ref\GameHaven.Utility.dll
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.deps.json
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfoInputs.cache
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfo.cs
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.csproj.CoreCompileInputs.cache
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\refint\GameHaven.Utility.dll
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\notga\Documents\University\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\ref\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.deps.json
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.pdb
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfoInputs.cache
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfo.cs
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.csproj.CoreCompileInputs.cache
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\refint\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.pdb
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\ref\GameHaven.Utility.dll
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.deps.json
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfoInputs.cache
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfo.cs
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\refint\GameHaven.Utility.dll
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\Shyam Dattani\source\repos\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\ref\GameHaven.Utility.dll
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.deps.json
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfoInputs.cache
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfo.cs
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.csproj.CoreCompileInputs.cache
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.dll
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\refint\GameHaven.Utility.dll
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.pdb
+C:\Users\notga\Desktop\New folder\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\ref\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.deps.json
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.pdb
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfoInputs.cache
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfo.cs
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.csproj.CoreCompileInputs.cache
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\refint\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.pdb
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop (1)\GameHaven.Utility\obj\Debug\net8.0\ref\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.deps.json
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\bin\Debug\net8.0\GameHaven.Utility.pdb
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfoInputs.cache
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.AssemblyInfo.cs
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.csproj.CoreCompileInputs.cache
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\refint\GameHaven.Utility.dll
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\GameHaven.Utility.pdb
+D:\Users\Shyam Dattani\Downloads\GameHaven Online Shop (1) 2\GameHaven Online Shop\GameHaven.Utility\obj\Debug\net8.0\ref\GameHaven.Utility.dll

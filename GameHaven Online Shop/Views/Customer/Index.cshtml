@@ -1,0 +1,117 @@
+﻿@model GameHaven_Online_Shop.Models.CustomerDashboardViewModel
+
+<div class="container mt-4">
+    <!-- Page Heading -->
+    <h2>Customer Dashboard</h2>
+
+    <!-- Display success message if account info was updated -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success mt-3">
+            @TempData["SuccessMessage"] <!-- Show TempData message -->
+        </div>
+    }
+
+    <div class="row mt-4">
+        <!-- LEFT COLUMN: Past Orders -->
+        <div class="col-md-8">
+            <h4>Past Orders</h4>
+
+            <!-- Check if the user has any orders -->
+            @if (Model.Orders != null && Model.Orders.Any())
+            {
+                <table class="table table-bordered table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Order ID</th> <!-- Order identifier -->
+                            <th>Date</th> <!-- Order date -->
+                            <th>Items</th> <!-- Nested table of items -->
+                            <th>Total (£)</th> <!-- Total order amount -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model.Orders)
+                        {
+                            <tr>
+                                <td>@order.Id</td> <!-- Display order ID -->
+                                <td>@order.CreatedUtc.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</td> <!-- Display formatted order date -->
+                                <td>
+                                    <!-- Nested table showing each item in the order -->
+                                    <table class="table table-sm table-borderless mb-0">
+                                        <thead class="bg-light">
+                                            <tr>
+                                                <th>Product</th> <!-- Product name -->
+                                                <th>Qty</th> <!-- Quantity ordered -->
+                                                <th>Unit Price</th> <!-- Price per unit -->
+                                                <th>Subtotal</th> <!-- Quantity × Unit Price -->
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in order.Items)
+                                            {
+                                                <tr>
+                                                    <td>@item.ProductName</td> <!-- Product name -->
+                                                    <td>@item.Quantity</td> <!-- Quantity -->
+                                                    <td>@item.UnitPrice.ToString("C")</td> <!-- Unit price formatted as currency -->
+                                                    <td>@( (item.UnitPrice * item.Quantity).ToString("C") )</td> <!-- Subtotal -->
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>@order.Total.ToString("C")</td> <!-- Display total order amount -->
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>No past orders found.</p> <!-- Message when no orders exist -->
+            }
+        </div>
+
+        <!-- RIGHT COLUMN: Account Info (Editable) -->
+        <div class="col-md-4">
+            <h4>Account Information</h4>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <!-- Form to update user account information -->
+                    <form asp-action="UpdateAccount" method="post">
+                        <input type="hidden" asp-for="User.Id" /> <!-- Hidden user ID -->
+
+                        <div class="mb-3">
+                            <label asp-for="User.FirstName" class="form-label">First Name</label>
+                            <input asp-for="User.FirstName" class="form-control" /> <!-- Input for first name -->
+                            <span asp-validation-for="User.FirstName" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="User.LastName" class="form-label">Last Name</label>
+                            <input asp-for="User.LastName" class="form-control" /> <!-- Input for last name -->
+                            <span asp-validation-for="User.LastName" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Email (readonly)</label>
+                            <input class="form-control" value="@Model.User.Email" readonly /> <!-- Read-only email -->
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="User.HomeAddress" class="form-label">Address</label>
+                            <textarea asp-for="User.HomeAddress" class="form-control" rows="3"></textarea> <!-- Input for home address -->
+                            <span asp-validation-for="User.HomeAddress" class="text-danger"></span> <!-- Validation message -->
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Update Info</button> <!-- Submit button -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" /> <!-- Include client-side validation scripts -->
+}

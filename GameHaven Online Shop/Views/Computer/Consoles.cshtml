@@ -1,0 +1,140 @@
+﻿@model IEnumerable<GameHaven.Models.Models.Game>
+
+@{
+    // Set the page title
+    ViewData["Title"] = "Computer Consoles";
+
+    // Hide the global search bar — only show the local search on this page
+    ViewData["HideHeaderSearch"] = true;
+}
+
+<div class="container mt-4">
+    <!-- Search & Sort -->
+    @* 
+        This form allows users to search for specific computer consoles or sort 
+        them by name or price. Submitting the form reloads the page with filters applied.
+    *@
+    <form method="get" asp-controller="Computer" asp-action="Consoles" class="row g-2 mb-4">
+
+        <!-- Search Input -->
+        @* Search box that passes the query string value "q" to the controller *@
+        <div class="col-md-8">
+            <input type="text"
+                   name="q"
+                   value="@(ViewData["CurrentSearch"] ?? "")"
+                   class="form-control"
+                   placeholder="Search" />
+        </div>
+
+        <!-- Sort Dropdown -->
+        @* Dropdown to sort by price (ascending/descending) or name (A–Z / Z–A) *@
+        <div class="col-md-4">
+            <select name="sort" class="form-select" onchange="this.form.submit()">
+                <option value="">Sort By</option>
+
+                @* Sort by price ascending *@
+                @if (ViewData["CurrentSort"]?.ToString() == "price-asc")
+                {
+                    <option value="price-asc" selected>Price: Low → High</option>
+                }
+                else
+                {
+                    <option value="price-asc">Price: Low → High</option>
+                }
+
+                @* Sort by price descending *@
+                @if (ViewData["CurrentSort"]?.ToString() == "price-desc")
+                {
+                    <option value="price-desc" selected>Price: High → Low</option>
+                }
+                else
+                {
+                    <option value="price-desc">Price: High → Low</option>
+                }
+
+                @* Sort by name ascending *@
+                @if (ViewData["CurrentSort"]?.ToString() == "name-asc")
+                {
+                    <option value="name-asc" selected>Name: A → Z</option>
+                }
+                else
+                {
+                    <option value="name-asc">Name: A → Z</option>
+                }
+
+                @* Sort by name descending *@
+                @if (ViewData["CurrentSort"]?.ToString() == "name-desc")
+                {
+                    <option value="name-desc" selected>Name: Z → A</option>
+                }
+                else
+                {
+                    <option value="name-desc">Name: Z → A</option>
+                }
+            </select>
+        </div>
+    </form>
+</div>
+
+<div class="container mt-4">
+    <!-- Computer Consoles Promotion Banner -->
+    @* Promotional image displayed at the top of the page to highlight offers *@
+    <div class="mb-5">
+        <img src="~/images/computer/promotions/computer-consoles-promo-2.png"
+             class="promo-banner"
+             alt="Computer Consoles Promotion" />
+    </div>
+
+    @* Section heading *@
+    <h2 class="mb-3 fw-bold">Computer Consoles</h2>
+
+    <!-- Product Grid -->
+    @* Dynamically displays each console item from the database model in a responsive grid *@
+    <div class="row g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3">
+                <div class="card h-100 shadow-sm border-0 hover-shadow">
+                    @* 
+                        Each product card links to its details page using the slug and category 
+                        to generate a clean URL structure.
+                    *@
+                    <a asp-controller="Computer"
+                       asp-action="Details"
+                       asp-route-slug="@item.Slug"
+                       asp-route-category="@item.Category"
+                       class="text-decoration-none text-dark">
+
+                        <!-- Product Image -->
+                        @* Load the product image directly from the database via ImageUrl *@
+                        <img src="@Url.Content(item.ImageUrl)"
+                             class="card-img-top"
+                             alt="@item.Title"
+                             style="object-fit: contain; max-height: 400px;">
+
+                        <!-- Product Details -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">@item.Title</h5>
+                            <p class="text-muted mb-2">£@item.Price</p>
+                        </div>
+                    </a>
+
+                    <!-- Add to Basket -->
+                    @* 
+                        This form posts the selected product’s data to the Home controller’s 
+                        AddToBasket action to handle adding it to the shopping basket.
+                    *@
+                    <div class="text-center pb-3">
+                        <form asp-controller="Home" asp-action="AddToBasket" method="post">
+                            <input type="hidden" name="id" value="@item.Slug" />
+                            <input type="hidden" name="title" value="@item.Title" />
+                            <input type="hidden" name="price" value="@item.Price" />
+                            <input type="hidden" name="image" value="@item.ImageUrl" />
+                            <button type="submit" class="btn btn-outline-primary btn-sm">Add to Basket</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

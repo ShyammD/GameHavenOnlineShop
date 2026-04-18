@@ -1,0 +1,66 @@
+﻿@model IEnumerable<GameHaven.Models.Models.Game>
+
+@{
+    // Sets the title for the Admin Dashboard page
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<!-- Page heading -->
+<h2>Admin Dashboard - Games</h2>
+
+<!-- Top action buttons for adding new games and managing orders -->
+<div class="mb-3 d-flex justify-content-between">
+    <!-- Button to create a new game -->
+    <a asp-action="Create" class="btn btn-success">Add New Game</a>
+
+    <!-- Button to navigate to customer order management -->
+    <a asp-action="CustomerOrders" class="btn btn-info">Customer Order Management</a>
+</div>
+
+<!-- Table displaying a list of all games -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <!-- Table headers for game details -->
+            <th>Title</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Platform</th>
+            <th>Release</th>
+            <th>Genre</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- Loop through each game in the model and display its details -->
+        @foreach (var game in Model)
+        {
+            <tr>
+                <!-- Display the game title -->
+                <td>@game.Title</td>
+
+                <!-- Display the price formatted as currency -->
+                <td>@game.Price.ToString("C")</td>
+
+                <!-- Display the game category -->
+                <td>@game.Category</td>
+
+                <!-- Display the platform -->
+                <td>@game.Platform</td>
+
+                <!-- Display the release date -->
+                <td>@game.ReleaseDate</td>
+
+                <!-- Display the game genre -->
+                <td>@game.Genre</td>
+
+                <!-- Action buttons to edit or delete a game -->
+                <td>
+                    <a asp-action="Edit" asp-route-id="@game.Id" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@game.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

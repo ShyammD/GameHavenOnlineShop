@@ -1,0 +1,55 @@
+﻿@model IEnumerable<GameHaven.Models.ViewModels.AdminCustomerOrdersViewModel>
+
+@{
+    // Sets the page title for the layout and browser tab
+    ViewData["Title"] = "Customer Orders";
+}
+
+<!-- Page heading -->
+<h2>Customer Order Management</h2>
+
+<!-- Loop through each customer and their associated orders -->
+@foreach (var entry in Model)
+{
+    <div class="card mb-4 shadow-sm p-3">
+        <!-- Display customer full name and email -->
+        <h5>@entry.User.FirstName @entry.User.LastName (@entry.User.Email)</h5>
+
+        @if (entry.Orders.Any())
+        {
+            <!-- Table to display each customer's order summary -->
+            <table class="table table-sm table-striped mt-2">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Date</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Loop through and display each order for the customer -->
+                    @foreach (var order in entry.Orders)
+                    {
+                        <tr>
+                            <!-- Display order details: ID, date, total amount -->
+                            <td>@order.Id</td>
+                            <td>@order.CreatedUtc.ToLocalTime().ToString("g")</td>
+                            <td>@order.Total.ToString("C")</td>
+
+                            <!-- Button link to view full order details -->
+                            <td>
+                                <a asp-action="OrderDetails" asp-route-id="@order.Id" class="btn btn-sm btn-primary">View Details</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <!-- Message shown if the customer has no orders -->
+            <p class="text-muted">No orders found for this customer.</p>
+        }
+    </div>
+}

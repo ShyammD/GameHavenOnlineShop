@@ -1,0 +1,128 @@
+﻿@model IEnumerable<GameHaven.Models.Models.Game>
+
+@{
+    ViewData["Title"] = "Search"; <!-- Set page title -->
+    ViewData["HideHeaderSearch"] = true; <!-- Hide header search bar on this page -->
+
+    var q = ViewData["q"]?.ToString() ?? ""; <!-- Current search query -->
+    var currentSort = ViewData["CurrentSort"]?.ToString() ?? ""; <!-- Current selected sort -->
+
+    // Map category prefix -> controller for Details links
+    string ControllerFor(string? category)
+    {
+        var c = category ?? "";
+        if (c.StartsWith("PlayStation", StringComparison.OrdinalIgnoreCase)) return "PlayStation"; <!-- Map PlayStation category -->
+        if (c.StartsWith("Xbox", StringComparison.OrdinalIgnoreCase)) return "Xbox"; <!-- Map Xbox category -->
+        if (c.StartsWith("Nintendo", StringComparison.OrdinalIgnoreCase)) return "Nintendo"; <!-- Map Nintendo category -->
+        return "Computer"; <!-- Default category mapping -->
+    }
+}
+
+<div class="container mt-4">
+    <!-- Search & Sort Section -->
+    <form method="get" asp-controller="Search" asp-action="Index" class="row g-2 mb-4">
+        <!-- Search Input -->
+        <div class="col-md-8">
+            <input class="form-control"
+                   type="text"
+                   name="q"
+                   value="@q"
+                   placeholder="Search" /> <!-- Input for search query -->
+        </div>
+
+        <!-- Sort Dropdown -->
+        <div class="col-md-4">
+            <select name="sort" class="form-select" onchange="this.form.submit()"> <!-- Sort select -->
+                <option value="">Sort By</option>
+
+                @if (string.Equals(currentSort, "price-asc", StringComparison.OrdinalIgnoreCase))
+                {
+                    <option value="price-asc" selected>Price: Low → High</option> <!-- Price ascending selected -->
+                }
+                else
+                {
+                    <option value="price-asc">Price: Low → High</option> <!-- Price ascending option -->
+                }
+
+                @if (string.Equals(currentSort, "price-desc", StringComparison.OrdinalIgnoreCase))
+                {
+                    <option value="price-desc" selected>Price: High → Low</option> <!-- Price descending selected -->
+                }
+                else
+                {
+                    <option value="price-desc">Price: High → Low</option> <!-- Price descending option -->
+                }
+
+                @if (string.Equals(currentSort, "name-asc", StringComparison.OrdinalIgnoreCase))
+                {
+                    <option value="name-asc" selected>Name: A → Z</option> <!-- Name ascending selected -->
+                }
+                else
+                {
+                    <option value="name-asc">Name: A → Z</option> <!-- Name ascending option -->
+                }
+
+                @if (string.Equals(currentSort, "name-desc", StringComparison.OrdinalIgnoreCase))
+                {
+                    <option value="name-desc" selected>Name: Z → A</option> <!-- Name descending selected -->
+                }
+                else
+                {
+                    <option value="name-desc">Name: Z → A</option> <!-- Name descending option -->
+                }
+            </select>
+        </div>
+    </form>
+
+    <!-- No Results Message -->
+    @if (!(Model?.Any() ?? false))
+    {
+        <p class="text-muted">No products found. Try a different search.</p> <!-- Display if no results found -->
+    }
+    else
+    {
+        <!-- Search Results Grid -->
+        <div class="row g-4">
+            @foreach (var item in Model)
+            {
+                var destController = ControllerFor(item.Category); <!-- Determine controller based on category -->
+
+                <div class="col-md-3">
+                    <!-- Single Product Card -->
+                    <div class="card h-100 shadow-sm border-0 hover-shadow">
+                        <a class="text-decoration-none text-dark"
+                           asp-controller="@destController"
+                           asp-action="Details"
+                           asp-route-slug="@item.Slug"
+                           asp-route-category="@item.Category"> <!-- Link to product details -->
+                            <img src="@Url.Content(item.ImageUrl)"
+                                 class="card-img-top"
+                                 alt="@item.Title"
+                                 style="object-fit: contain; max-height: 380px;"> <!-- Product image -->
+                            <div class="card-body text-center">
+                                <div class="small text-muted">@item.Category</div> <!-- Product category -->
+                                <h6 class="fw-bold mb-1">@item.Title</h6> <!-- Product title -->
+                                @if (!string.IsNullOrWhiteSpace(item.Platform))
+                                {
+                                    <div class="text-muted mb-2">@item.Platform</div> <!-- Product platform -->
+                                }
+                                <div class="fw-semibold">£@item.Price</div> <!-- Product price -->
+                            </div>
+                        </a>
+
+                        <!-- Add to Basket Button -->
+                        <div class="text-center pb-3">
+                            <form asp-controller="Home" asp-action="AddToBasket" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@item.Slug" /> <!-- Hidden slug value -->
+                                <input type="hidden" name="title" value="@item.Title" /> <!-- Hidden title value -->
+                                <input type="hidden" name="price" value="@item.Price" /> <!-- Hidden price value -->
+                                <input type="hidden" name="image" value="@item.ImageUrl" /> <!-- Hidden image value -->
+                                <button type="submit" class="btn btn-outline-primary btn-sm">Add to Basket</button> <!-- Submit to add to basket -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

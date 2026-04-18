@@ -1,0 +1,77 @@
+﻿@model GameHaven.Models.Models.Game
+
+@{
+    // Sets the page title displayed in the layout
+    ViewData["Title"] = "Edit Game";
+}
+
+<!-- Page heading -->
+<h2>Edit Game</h2>
+
+<!-- Form posts to the Edit action in the controller -->
+<form asp-action="Edit" method="post">
+    <!-- Hidden field to hold the Game ID -->
+    <input type="hidden" asp-for="Id" />
+
+    <!-- Input for game title -->
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <!-- Input for game price -->
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <!-- Input for game category -->
+    <div class="mb-3">
+        <label asp-for="Category" class="form-label"></label>
+        <input asp-for="Category" class="form-control" />
+    </div>
+
+    <!-- Input for game platform -->
+    <div class="mb-3">
+        <label asp-for="Platform" class="form-label"></label>
+        <input asp-for="Platform" class="form-control" />
+    </div>
+
+    <!-- Input for release date -->
+    <div class="mb-3">
+        <label asp-for="ReleaseDate" class="form-label"></label>
+        <input asp-for="ReleaseDate" class="form-control" />
+    </div>
+
+    <!-- Input for genre -->
+    <div class="mb-3">
+        <label asp-for="Genre" class="form-label"></label>
+        <input asp-for="Genre" class="form-control" />
+    </div>
+
+    <!-- Input for slug (used in URLs) -->
+    <div class="mb-3">
+        <label asp-for="Slug" class="form-label"></label>
+        <input asp-for="Slug" class="form-control" />
+    </div>
+
+    <!-- Textarea for game description -->
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <!-- Input for image URL -->
+    <div class="mb-3">
+        <label asp-for="ImageUrl" class="form-label"></label>
+        <input asp-for="ImageUrl" class="form-control" />
+    </div>
+
+    <!-- Submit button to update the game -->
+    <button type="submit" class="btn btn-primary">Update Game</button>
+
+    <!-- Cancel button returns to Index view -->
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
