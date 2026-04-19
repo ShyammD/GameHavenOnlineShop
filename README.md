@@ -207,7 +207,10 @@ If you would like to improve the project:
 
 
 ## License
-Ensure a `LICENSE` file (e.g., MIT) is included at the repository root to define usage and distribution.
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
 
 
 ## Final Note
